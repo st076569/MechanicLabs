@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  16 SEP 2021 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  23 SEP 2021 00:43
 entering extended mode
 **./Report_6.tex
 (Report_6.tex
@@ -579,41 +579,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--69
 <./Pictures//Lab_6_1.png, id=7, 1215.79219pt x 374.14781pt>
 File: ./Pictures//Lab_6_1.png Graphic file (type png)
 <use ./Pictures//Lab_6_1.png>
-Package pdftex.def Info: ./Pictures//Lab_6_1.png  used on input line 84.
-(pdftex.def)             Requested size: 341.43306pt x 105.06895pt.
+Package pdftex.def Info: ./Pictures//Lab_6_1.png  used on input line 85.
+(pdftex.def)             Requested size: 369.88582pt x 113.8266pt.
  [2 <./Pictures//Lab_6_1.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
 
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3] [4] [5] [6] [7]
-(Report_6.aux) ) 
+) [3] [4]
+<./Pictures//Lab_6_2.png, id=30, 798.73407pt x 353.06906pt>
+File: ./Pictures//Lab_6_2.png Graphic file (type png)
+<use ./Pictures//Lab_6_2.png>
+Package pdftex.def Info: ./Pictures//Lab_6_2.png  used on input line 209.
+(pdftex.def)             Requested size: 369.88582pt x 163.50198pt.
+ [5 <./Pictures//Lab_6_2.png>]
+Overfull \hbox (1.04636pt too wide) in paragraph at lines 229--229
+ []|\T2A/cmr/m/n/12 Среднее| 
+ []
+
+[6] (Report_6.aux) ) 
 Here is how much of TeX's memory you used:
- 4638 strings out of 479618
- 60482 string characters out of 2874902
- 362280 words of memory out of 3000000
- 21733 multiletter control sequences out of 15000+200000
+ 4655 strings out of 479618
+ 60682 string characters out of 2874902
+ 366458 words of memory out of 3000000
+ 21749 multiletter control sequences out of 15000+200000
  414602 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,9n,74p,821b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\lati1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\larm1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\labx1728.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Report_6.pdf (7 pages, 370716 bytes).
+ 68i,9n,74p,821b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\lati1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\larm1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts
+/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on Report_6.pdf (6 pages, 516331 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
+ 273 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

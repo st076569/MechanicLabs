@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  16 SEP 2021 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  22 SEP 2021 19:43
 entering extended mode
 **./Report_4.tex
 (Report_4.tex
@@ -579,29 +579,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--69
 <./Pictures//Lab_4_1.png, id=7, 738.50906pt x 428.35031pt>
 File: ./Pictures//Lab_4_1.png Graphic file (type png)
 <use ./Pictures//Lab_4_1.png>
-Package pdftex.def Info: ./Pictures//Lab_4_1.png  used on input line 84.
-(pdftex.def)             Requested size: 341.43306pt x 198.03702pt.
+Package pdftex.def Info: ./Pictures//Lab_4_1.png  used on input line 85.
+(pdftex.def)             Requested size: 369.88582pt x 214.54065pt.
  [2 <./Pictures//Lab_4_1.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
 
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3] [4] [5] [6] [7]
-[8] (Report_4.aux) ) 
+) [3] [4]
+<./Pictures//Lab_4_2.png, id=29, 782.17218pt x 347.79938pt>
+File: ./Pictures//Lab_4_2.png Graphic file (type png)
+<use ./Pictures//Lab_4_2.png>
+Package pdftex.def Info: ./Pictures//Lab_4_2.png  used on input line 247.
+(pdftex.def)             Requested size: 369.88582pt x 164.47404pt.
+ [5 <./Pictures//Lab_4_2.png>] [6]
+Overfull \hbox (1.04636pt too wide) in paragraph at lines 291--291
+ []|\T2A/cmr/m/n/12 Среднее| 
+ []
+
+[7] (Report_4.aux) ) 
 Here is how much of TeX's memory you used:
- 4652 strings out of 479618
- 60552 string characters out of 2874902
- 384592 words of memory out of 3000000
- 21747 multiletter control sequences out of 15000+200000
+ 4658 strings out of 479618
+ 60696 string characters out of 2874902
+ 377581 words of memory out of 3000000
+ 21752 multiletter control sequences out of 15000+200000
  414602 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,1321b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,11n,74p,1321b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
 -t2a/dpi600\larm0800.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/l
 h/lh-t2a/dpi600\lati1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfo
@@ -614,9 +624,9 @@ fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
 i8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
 ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Report_4.pdf (8 pages, 273278 bytes).
+Output written on Report_4.pdf (7 pages, 378462 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
+ 280 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
