@@ -17,6 +17,8 @@ footskip=1cm]{geometry}
 \usepackage{misccorr}
 \usepackage{setspace, amsmath}
 \usepackage{multirow}
+\usepackage{subcaption}
+
 
 \begin{document}
     
@@ -113,9 +115,117 @@ footskip=1cm]{geometry}
     
     \newpage
     
+    \section{Теоретические исследования}
+    
+    Собственная форма колебаний однородной пластины подчиняется дифференциальному
+    уравнению (\ref{eq1}), записанному в полярных координатах $(r, \, \phi)$.
+    
+    \begin{equation}
+        \begin{aligned}
+        \Delta(\Delta w(r, \, \phi)) - \frac{\rho h p^{2}}{D}w(r, \, \phi) = 0, \quad \text{где} \\
+        \Delta = \frac{\partial^{2}}{\partial r^{2}} + \frac{1}{r} \frac{\partial}{\partial r} + \frac{1}{r^{2}} \frac{\partial^{2}}{\partial \phi^{2}}, \quad D = \frac{Eh^{3}}{12(1 - \sigma^{2})}.
+        \end{aligned}
+        \label{eq1}
+    \end{equation}
+    
+    Краевые условия, соответствующие свободному краю пластины, записываются в виде уравнений (\ref{eq2}).
+    
+    \begin{equation}
+        \begin{aligned}
+            \frac{\partial^{2}w}{\partial r^{2}} + \sigma \Big(\frac{1}{r} \frac{\partial w}{\partial r} + \frac{1}{r^{2}} \frac{\partial^{2} w}{\partial \phi^{2}} \Big) = 0 \\
+            \frac{\partial}{\partial r} \Big[\frac{\partial^{2}w}{\partial r^{2}} + (2 - \sigma) \Big(\frac{1}{r} \frac{\partial w}{\partial r} + \frac{1}{r^{2}} \frac{\partial^{2} w}{\partial \phi^{2}} \Big) \Big] = 0
+        \end{aligned}
+        \label{eq2}
+    \end{equation}
+    
+    Уравнения условий жесткого закрепления по краям центрального отверстия принимают вид (\ref{eq3}).
+    
+    \begin{equation}
+         \frac{\partial w}{\partial n} = 0, \quad w = 0
+         \label{eq3}
+    \end{equation}
+    
+    Уравнение (\ref{eq1}) будет выполнено для форм, удовлетворяющих следующим уравнениям:
+    
+    \begin{equation}
+        \Delta w \pm k^{2}w = 0, \quad \text{где} \quad k^{4} = \frac{\rho h p^{2}}{D}
+        \label{eq4}
+    \end{equation}
+    
+    Здесь $p$~--~это соответствующая частота собственных колебаний. Решение уравнения (\ref{eq4}) ищется методом разделения переменных в виде:
+    
+    \begin{equation}
+        w(r, \, \phi) = R(r)\Phi(\phi)
+        \label{eq5}
+    \end{equation}
+    
+    Подставляя решение (\ref{eq5}) в уравнение (\ref{eq4}) и разделяя переменные, получим следующую систему уравнений:
+    
+    \begin{equation}
+        \begin{aligned}
+            \frac{d^{2} \Phi}{d \phi^{2}} + n^{2} \Phi = 0 \\
+            \frac{d^{2}R}{d r^{2}} + \frac{1}{r} \frac{d R}{d r} + \Big( \pm k^{2} - \frac{n^{2}}{r^{2}} \Big) R = 0
+        \end{aligned}
+        \label{eq6}
+    \end{equation}
+    
+    Общее решение системы (\ref{eq6}) для целых значений $n$ для круглой пластины с круглым отверстием в центре имеет вид:
+    
+    \begin{equation}
+        w(r, \, \phi) = cos(n \phi) \cdot (J_{n}(kr) + \lambda I_{n}(kr) + \mu N_{n}(kr) + \nu K_{n}(kr)).
+        \label{eq7}
+    \end{equation}
+    
+    Здесь $J_{n}$~--~функция Бесселя порядка $n$, $I_{n}$~--~модифицированная функция Бесселя порядка $n$, $N_{n}$~--~функция Неймана порядка $n$, $K_{n}$~--~функция, выражающаяся через функцию Ганкеля порядка $n$.
+     
+    \newpage
+    
     \section{Результаты экспериментов}
     
-    Далее представлены главные формы и соответствующие им частоты собственных колебаний пластины, которые были получены в ходе эксперимента.
+    В следующей таблице представлены результаты экспериментов, то есть фигуры Хладни, которые иллюстрируют различные формы собственных колебаний пластины, и соответствующие им частоты.
     
+    \begin{longtable}{| M{1.5cm} | M{7cm} | M{5cm} |}
+        \caption{\centering Экспериментальные данные.}
+        \label{tb2} \\
+        \hline
+        Номер & Форма колебаний & Частота колебаний, Гц \\
+        \hline
+        1 & \center \includegraphics [height = 6cm] {Lab_7_Form_1.jpg} & 26 \\ [21ex]
+        \hline
+        2 & \center \includegraphics [height = 6cm] {Lab_7_Form_2.jpg} & 46 \\ [21ex]
+        \hline
+        3 & \center \includegraphics [height = 6cm] {Lab_7_Form_3.jpg} & 150 \\ [21ex]
+        \hline
+        4 & \center \includegraphics [height = 6cm] {Lab_7_Form_4.jpg} & 260 \\ [21ex]
+        \hline
+        5 & \center \includegraphics [height = 6cm] {Lab_7_Form_5.jpg} & 285 \\ [21ex]
+        \hline
+        6 & \center \includegraphics [height = 6cm] {Lab_7_Form_6.jpg} & 405 \\ [21ex]
+        \hline
+        7 & \center \includegraphics [height = 6cm] {Lab_7_Form_7.jpg} & 435 \\ [21ex]
+        \hline
+        8 & \center \includegraphics [height = 6cm] {Lab_7_Form_8.jpg} & 562 \\ [21ex]
+        \hline
+        9 & \center \includegraphics [height = 6cm] {Lab_7_Form_9.jpg} & 640 \\ [21ex]
+        \hline
+        10 & \center \includegraphics [height = 6cm] {Lab_7_Form_10.jpg} & 760 \\ [21ex]
+        \hline
+        11 & \center \includegraphics [height = 6cm] {Lab_7_Form_11.jpg} & 890 \\ [21ex]
+        \hline
+        12 & \center \includegraphics [height = 6cm] {Lab_7_Form_12.jpg} & 985 \\ [21ex]
+        \hline
+        13 & \center \includegraphics [height = 6cm] {Lab_7_Form_13.jpg} & 1050 \\ [21ex]
+        \hline
+        14 & \center \includegraphics [height = 6cm] {Lab_7_Form_14.jpg} & 1175 \\ [21ex]
+        \hline
+        15 & \center \includegraphics [height = 6cm] {Lab_7_Form_15.jpg} & 1225 \\ [21ex]
+        \hline
+        16 & \center \includegraphics [height = 6cm] {Lab_7_Form_16.jpg} & 1360 \\ [21ex]
+        \hline
+        17 & \center \includegraphics [height = 6cm] {Lab_7_Form_17.jpg} & 1500 \\ [21ex]
+        \hline
+        18 & \center \includegraphics [height = 6cm] {Lab_7_Form_18.jpg} & 1730 \\ [21ex]
+        \hline
+    \end{longtable}
     
 \end{document}
